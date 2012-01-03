@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3ADF8E514A55DA0001928D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ADF8E414A55DA0001928D6 /* UIKit.framework */; };
+		D3ADF8E714A55DA0001928D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ADF8E614A55DA0001928D6 /* Foundation.framework */; };
+		D3ADF8E914A55DA0001928D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ADF8E814A55DA0001928D6 /* CoreGraphics.framework */; };
+		D3ADF8EF14A55DA0001928D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3ADF8ED14A55DA0001928D6 /* InfoPlist.strings */; };
+		D3ADF8F114A55DA0001928D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADF8F014A55DA0001928D6 /* main.m */; };
+		D3ADF8F514A55DA0001928D6 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADF8F414A55DA0001928D6 /* BIDAppDelegate.m */; };
+		D3ADF8F814A55DA0001928D6 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ADF8F714A55DA0001928D6 /* BIDViewController.m */; };
+		D3ADF8FB14A55DA0001928D6 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3ADF8F914A55DA0001928D6 /* BIDViewController.xib */; };
+		D3ADF90214A55E7B001928D6 /* apress_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3ADF90114A55E7B001928D6 /* apress_logo.png */; };
+		D3ECE58514AD6395001F6051 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3ECE58414AD6395001F6051 /* blueButton.png */; };
+		D3ECE58814AD639E001F6051 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3ECE58714AD639E001F6051 /* whiteButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3ADF8E014A55DA0001928D6 /* Control Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3ADF8E414A55DA0001928D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3ADF8E614A55DA0001928D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3ADF8E814A55DA0001928D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3ADF8EC14A55DA0001928D6 /* Control Fun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Control Fun-Info.plist"; sourceTree = "<group>"; };
+		D3ADF8EE14A55DA0001928D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3ADF8F014A55DA0001928D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3ADF8F214A55DA0001928D6 /* Control Fun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Control Fun-Prefix.pch"; sourceTree = "<group>"; };
+		D3ADF8F314A55DA0001928D6 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		D3ADF8F414A55DA0001928D6 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		D3ADF8F614A55DA0001928D6 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		D3ADF8F714A55DA0001928D6 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		D3ADF8FA14A55DA0001928D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		D3ADF90114A55E7B001928D6 /* apress_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apress_logo.png; sourceTree = "<group>"; };
+		D3ECE58414AD6395001F6051 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		D3ECE58714AD639E001F6051 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3ADF8DD14A55DA0001928D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ADF8E514A55DA0001928D6 /* UIKit.framework in Frameworks */,
+				D3ADF8E714A55DA0001928D6 /* Foundation.framework in Frameworks */,
+				D3ADF8E914A55DA0001928D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3ADF8D514A55DA0001928D6 = {
+			isa = PBXGroup;
+			children = (
+				D3ADF8EA14A55DA0001928D6 /* Control Fun */,
+				D3ADF8E314A55DA0001928D6 /* Frameworks */,
+				D3ADF8E114A55DA0001928D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3ADF8E114A55DA0001928D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3ADF8E014A55DA0001928D6 /* Control Fun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3ADF8E314A55DA0001928D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3ADF8E414A55DA0001928D6 /* UIKit.framework */,
+				D3ADF8E614A55DA0001928D6 /* Foundation.framework */,
+				D3ADF8E814A55DA0001928D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3ADF8EA14A55DA0001928D6 /* Control Fun */ = {
+			isa = PBXGroup;
+			children = (
+				D3ADF8F314A55DA0001928D6 /* BIDAppDelegate.h */,
+				D3ADF8F414A55DA0001928D6 /* BIDAppDelegate.m */,
+				D3ADF8F614A55DA0001928D6 /* BIDViewController.h */,
+				D3ADF8F714A55DA0001928D6 /* BIDViewController.m */,
+				D3ADF8F914A55DA0001928D6 /* BIDViewController.xib */,
+				D3ADF8EB14A55DA0001928D6 /* Supporting Files */,
+			);
+			path = "Control Fun";
+			sourceTree = "<group>";
+		};
+		D3ADF8EB14A55DA0001928D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3ECE58714AD639E001F6051 /* whiteButton.png */,
+				D3ECE58414AD6395001F6051 /* blueButton.png */,
+				D3ADF90114A55E7B001928D6 /* apress_logo.png */,
+				D3ADF8EC14A55DA0001928D6 /* Control Fun-Info.plist */,
+				D3ADF8ED14A55DA0001928D6 /* InfoPlist.strings */,
+				D3ADF8F014A55DA0001928D6 /* main.m */,
+				D3ADF8F214A55DA0001928D6 /* Control Fun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3ADF8DF14A55DA0001928D6 /* Control Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3ADF8FE14A55DA0001928D6 /* Build configuration list for PBXNativeTarget "Control Fun" */;
+			buildPhases = (
+				D3ADF8DC14A55DA0001928D6 /* Sources */,
+				D3ADF8DD14A55DA0001928D6 /* Frameworks */,
+				D3ADF8DE14A55DA0001928D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Control Fun";
+			productName = "Control Fun";
+			productReference = D3ADF8E014A55DA0001928D6 /* Control Fun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3ADF8D714A55DA0001928D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D3ADF8DA14A55DA0001928D6 /* Build configuration list for PBXProject "Control Fun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3ADF8D514A55DA0001928D6;
+			productRefGroup = D3ADF8E114A55DA0001928D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3ADF8DF14A55DA0001928D6 /* Control Fun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3ADF8DE14A55DA0001928D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ADF8EF14A55DA0001928D6 /* InfoPlist.strings in Resources */,
+				D3ADF8FB14A55DA0001928D6 /* BIDViewController.xib in Resources */,
+				D3ADF90214A55E7B001928D6 /* apress_logo.png in Resources */,
+				D3ECE58514AD6395001F6051 /* blueButton.png in Resources */,
+				D3ECE58814AD639E001F6051 /* whiteButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3ADF8DC14A55DA0001928D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ADF8F114A55DA0001928D6 /* main.m in Sources */,
+				D3ADF8F514A55DA0001928D6 /* BIDAppDelegate.m in Sources */,
+				D3ADF8F814A55DA0001928D6 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3ADF8ED14A55DA0001928D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3ADF8EE14A55DA0001928D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3ADF8F914A55DA0001928D6 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3ADF8FA14A55DA0001928D6 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3ADF8FC14A55DA0001928D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3ADF8FD14A55DA0001928D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3ADF8FF14A55DA0001928D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3ADF90014A55DA0001928D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3ADF8DA14A55DA0001928D6 /* Build configuration list for PBXProject "Control Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3ADF8FC14A55DA0001928D6 /* Debug */,
+				D3ADF8FD14A55DA0001928D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3ADF8FE14A55DA0001928D6 /* Build configuration list for PBXNativeTarget "Control Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3ADF8FF14A55DA0001928D6 /* Debug */,
+				D3ADF90014A55DA0001928D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3ADF8D714A55DA0001928D6 /* Project object */;
+}

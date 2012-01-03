@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D367D3E914AEB8BE00A69821 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D367D3E814AEB8BE00A69821 /* UIKit.framework */; };
+		D367D3EB14AEB8BE00A69821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D367D3EA14AEB8BE00A69821 /* Foundation.framework */; };
+		D367D3ED14AEB8BE00A69821 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D367D3EC14AEB8BE00A69821 /* CoreGraphics.framework */; };
+		D367D3F314AEB8BE00A69821 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D367D3F114AEB8BE00A69821 /* InfoPlist.strings */; };
+		D367D3F514AEB8BE00A69821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D367D3F414AEB8BE00A69821 /* main.m */; };
+		D367D3F914AEB8BE00A69821 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D367D3F814AEB8BE00A69821 /* BIDAppDelegate.m */; };
+		D367D40214AEBB0F00A69821 /* BIDDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D367D40014AEBB0F00A69821 /* BIDDatePickerViewController.m */; };
+		D367D40314AEBB0F00A69821 /* BIDDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D367D40114AEBB0F00A69821 /* BIDDatePickerViewController.xib */; };
+		D367D40714AEBB4500A69821 /* BIDSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D367D40514AEBB4500A69821 /* BIDSingleComponentPickerViewController.m */; };
+		D367D40814AEBB4500A69821 /* BIDSingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D367D40614AEBB4500A69821 /* BIDSingleComponentPickerViewController.xib */; };
+		D367D40C14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D367D40A14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.m */; };
+		D367D40D14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D367D40B14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.xib */; };
+		D367D41114AEBB6A00A69821 /* BIDDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D367D40F14AEBB6A00A69821 /* BIDDependentComponentPickerViewController.m */; };
+		D367D41214AEBB6A00A69821 /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D367D41014AEBB6A00A69821 /* BIDDependentComponentPickerViewController.xib */; };
+		D367D41614AEBB7E00A69821 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D367D41414AEBB7E00A69821 /* BIDCustomPickerViewController.m */; };
+		D367D41714AEBB7E00A69821 /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D367D41514AEBB7E00A69821 /* BIDCustomPickerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D367D3E414AEB8BD00A69821 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D367D3E814AEB8BE00A69821 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D367D3EA14AEB8BE00A69821 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D367D3EC14AEB8BE00A69821 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D367D3F014AEB8BE00A69821 /* Pickers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pickers-Info.plist"; sourceTree = "<group>"; };
+		D367D3F214AEB8BE00A69821 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D367D3F414AEB8BE00A69821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D367D3F614AEB8BE00A69821 /* Pickers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pickers-Prefix.pch"; sourceTree = "<group>"; };
+		D367D3F714AEB8BE00A69821 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		D367D3F814AEB8BE00A69821 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		D367D3FF14AEBB0F00A69821 /* BIDDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDatePickerViewController.h; path = ../BIDDatePickerViewController.h; sourceTree = "<group>"; };
+		D367D40014AEBB0F00A69821 /* BIDDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDatePickerViewController.m; path = ../BIDDatePickerViewController.m; sourceTree = "<group>"; };
+		D367D40114AEBB0F00A69821 /* BIDDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDDatePickerViewController.xib; path = ../BIDDatePickerViewController.xib; sourceTree = "<group>"; };
+		D367D40414AEBB4500A69821 /* BIDSingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDSingleComponentPickerViewController.h; path = ../BIDSingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		D367D40514AEBB4500A69821 /* BIDSingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDSingleComponentPickerViewController.m; path = ../BIDSingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		D367D40614AEBB4500A69821 /* BIDSingleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDSingleComponentPickerViewController.xib; path = ../BIDSingleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		D367D40914AEBB5700A69821 /* BIDDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDoubleComponentPickerViewController.h; path = ../BIDDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		D367D40A14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDoubleComponentPickerViewController.m; path = ../BIDDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		D367D40B14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDDoubleComponentPickerViewController.xib; path = ../BIDDoubleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		D367D40E14AEBB6A00A69821 /* BIDDependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDependentComponentPickerViewController.h; path = ../BIDDependentComponentPickerViewController.h; sourceTree = "<group>"; };
+		D367D40F14AEBB6A00A69821 /* BIDDependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDependentComponentPickerViewController.m; path = ../BIDDependentComponentPickerViewController.m; sourceTree = "<group>"; };
+		D367D41014AEBB6A00A69821 /* BIDDependentComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDDependentComponentPickerViewController.xib; path = ../BIDDependentComponentPickerViewController.xib; sourceTree = "<group>"; };
+		D367D41314AEBB7E00A69821 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDCustomPickerViewController.h; path = ../BIDCustomPickerViewController.h; sourceTree = "<group>"; };
+		D367D41414AEBB7E00A69821 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDCustomPickerViewController.m; path = ../BIDCustomPickerViewController.m; sourceTree = "<group>"; };
+		D367D41514AEBB7E00A69821 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDCustomPickerViewController.xib; path = ../BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D367D3E114AEB8BD00A69821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D367D3E914AEB8BE00A69821 /* UIKit.framework in Frameworks */,
+				D367D3EB14AEB8BE00A69821 /* Foundation.framework in Frameworks */,
+				D367D3ED14AEB8BE00A69821 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D367D3D914AEB8BD00A69821 = {
+			isa = PBXGroup;
+			children = (
+				D367D3EE14AEB8BE00A69821 /* Pickers */,
+				D367D3E714AEB8BE00A69821 /* Frameworks */,
+				D367D3E514AEB8BD00A69821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D367D3E514AEB8BD00A69821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D367D3E414AEB8BD00A69821 /* Pickers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D367D3E714AEB8BE00A69821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D367D3E814AEB8BE00A69821 /* UIKit.framework */,
+				D367D3EA14AEB8BE00A69821 /* Foundation.framework */,
+				D367D3EC14AEB8BE00A69821 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D367D3EE14AEB8BE00A69821 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				D367D3FF14AEBB0F00A69821 /* BIDDatePickerViewController.h */,
+				D367D40414AEBB4500A69821 /* BIDSingleComponentPickerViewController.h */,
+				D367D40914AEBB5700A69821 /* BIDDoubleComponentPickerViewController.h */,
+				D367D40E14AEBB6A00A69821 /* BIDDependentComponentPickerViewController.h */,
+				D367D41314AEBB7E00A69821 /* BIDCustomPickerViewController.h */,
+				D367D41414AEBB7E00A69821 /* BIDCustomPickerViewController.m */,
+				D367D41514AEBB7E00A69821 /* BIDCustomPickerViewController.xib */,
+				D367D40F14AEBB6A00A69821 /* BIDDependentComponentPickerViewController.m */,
+				D367D41014AEBB6A00A69821 /* BIDDependentComponentPickerViewController.xib */,
+				D367D40A14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.m */,
+				D367D40B14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.xib */,
+				D367D40514AEBB4500A69821 /* BIDSingleComponentPickerViewController.m */,
+				D367D40614AEBB4500A69821 /* BIDSingleComponentPickerViewController.xib */,
+				D367D40014AEBB0F00A69821 /* BIDDatePickerViewController.m */,
+				D367D40114AEBB0F00A69821 /* BIDDatePickerViewController.xib */,
+				D367D3F714AEB8BE00A69821 /* BIDAppDelegate.h */,
+				D367D3F814AEB8BE00A69821 /* BIDAppDelegate.m */,
+				D367D3EF14AEB8BE00A69821 /* Supporting Files */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		D367D3EF14AEB8BE00A69821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D367D3F014AEB8BE00A69821 /* Pickers-Info.plist */,
+				D367D3F114AEB8BE00A69821 /* InfoPlist.strings */,
+				D367D3F414AEB8BE00A69821 /* main.m */,
+				D367D3F614AEB8BE00A69821 /* Pickers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D367D3E314AEB8BD00A69821 /* Pickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D367D3FC14AEB8BE00A69821 /* Build configuration list for PBXNativeTarget "Pickers" */;
+			buildPhases = (
+				D367D3E014AEB8BD00A69821 /* Sources */,
+				D367D3E114AEB8BD00A69821 /* Frameworks */,
+				D367D3E214AEB8BD00A69821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pickers;
+			productName = Pickers;
+			productReference = D367D3E414AEB8BD00A69821 /* Pickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D367D3DB14AEB8BD00A69821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D367D3DE14AEB8BD00A69821 /* Build configuration list for PBXProject "Pickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D367D3D914AEB8BD00A69821;
+			productRefGroup = D367D3E514AEB8BD00A69821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D367D3E314AEB8BD00A69821 /* Pickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D367D3E214AEB8BD00A69821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D367D3F314AEB8BE00A69821 /* InfoPlist.strings in Resources */,
+				D367D40314AEBB0F00A69821 /* BIDDatePickerViewController.xib in Resources */,
+				D367D40814AEBB4500A69821 /* BIDSingleComponentPickerViewController.xib in Resources */,
+				D367D40D14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.xib in Resources */,
+				D367D41214AEBB6A00A69821 /* BIDDependentComponentPickerViewController.xib in Resources */,
+				D367D41714AEBB7E00A69821 /* BIDCustomPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D367D3E014AEB8BD00A69821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D367D3F514AEB8BE00A69821 /* main.m in Sources */,
+				D367D3F914AEB8BE00A69821 /* BIDAppDelegate.m in Sources */,
+				D367D40214AEBB0F00A69821 /* BIDDatePickerViewController.m in Sources */,
+				D367D40714AEBB4500A69821 /* BIDSingleComponentPickerViewController.m in Sources */,
+				D367D40C14AEBB5700A69821 /* BIDDoubleComponentPickerViewController.m in Sources */,
+				D367D41114AEBB6A00A69821 /* BIDDependentComponentPickerViewController.m in Sources */,
+				D367D41614AEBB7E00A69821 /* BIDCustomPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D367D3F114AEB8BE00A69821 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D367D3F214AEB8BE00A69821 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D367D3FA14AEB8BE00A69821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D367D3FB14AEB8BE00A69821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D367D3FD14AEB8BE00A69821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pickers/Pickers-Prefix.pch";
+				INFOPLIST_FILE = "Pickers/Pickers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D367D3FE14AEB8BE00A69821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pickers/Pickers-Prefix.pch";
+				INFOPLIST_FILE = "Pickers/Pickers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D367D3DE14AEB8BD00A69821 /* Build configuration list for PBXProject "Pickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D367D3FA14AEB8BE00A69821 /* Debug */,
+				D367D3FB14AEB8BE00A69821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D367D3FC14AEB8BE00A69821 /* Build configuration list for PBXNativeTarget "Pickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D367D3FD14AEB8BE00A69821 /* Debug */,
+				D367D3FE14AEB8BE00A69821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D367D3DB14AEB8BD00A69821 /* Project object */;
+}
