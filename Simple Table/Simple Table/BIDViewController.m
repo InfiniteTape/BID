@@ -75,9 +75,49 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                       reuseIdentifier:SimpleTableIdentifier]; 
     }
+    
+    UIImage *image = [UIImage imageNamed:@"star.png"];
+    cell.imageView.image = image;
+    
+    UIImage *highlightedImage = [UIImage imageNamed:@"star2.png"];
+    cell.imageView.highlightedImage = highlightedImage;
+    
     NSUInteger row = [indexPath row]; 
     cell.textLabel.text = [listData objectAtIndex:row];
+    
+    if (row < 7)
+        cell.detailTextLabel.text = @"Disney";
+    else
+        cell.detailTextLabel.text = @"Tolkien";
+    
     return cell;
+}
+
+#pragma mark -
+#pragma mark Table View Delegate Methods
+
+-(NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row = [indexPath row];
+    return row;
+}
+
+-(NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row = [indexPath row];
+    if(row==0) return nil;
+    return indexPath;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row = [indexPath row];
+    NSString *rowValue = [listData objectAtIndex:row];
+    NSString *message = [[NSString alloc] initWithFormat:@"You selected %@", rowValue];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Row Selected!" message:message delegate:nil cancelButtonTitle:@"Yes, I did!" otherButtonTitles:nil];
+    [alert show];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end
