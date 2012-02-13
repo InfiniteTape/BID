@@ -84,6 +84,7 @@
     
     NSUInteger row = [indexPath row]; 
     cell.textLabel.text = [listData objectAtIndex:row];
+    cell.textLabel.font = [UIFont boldSystemFontOfSize:50.0];
     
     if (row < 7)
         cell.detailTextLabel.text = @"Disney";
@@ -118,6 +119,11 @@
     [alert show];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 70;
 }
 
 @end
