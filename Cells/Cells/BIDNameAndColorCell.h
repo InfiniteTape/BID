@@ -12,4 +12,9 @@
 
 @property (copy, nonatomic) NSString *name;
 @property (copy, nonatomic) NSString *color;
+
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *colorLabel;
+
 @end

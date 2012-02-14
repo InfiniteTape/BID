@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39BC34E14EA046B00E3D67F /* BIDNameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39BC34D14EA046B00E3D67F /* BIDNameAndColorCell.xib */; };
 		FED9591514E9BB6500DD1631 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED9591414E9BB6500DD1631 /* UIKit.framework */; };
 		FED9591714E9BB6500DD1631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED9591614E9BB6500DD1631 /* Foundation.framework */; };
 		FED9591914E9BB6500DD1631 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED9591814E9BB6500DD1631 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D39BC34D14EA046B00E3D67F /* BIDNameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDNameAndColorCell.xib; sourceTree = "<group>"; };
 		FED9591014E9BB6500DD1631 /* Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED9591414E9BB6500DD1631 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FED9591614E9BB6500DD1631 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 				FED9591B14E9BB6500DD1631 /* Supporting Files */,
 				FED9593114E9BBF000DD1631 /* BIDNameAndColorCell.h */,
 				FED9593214E9BBF000DD1631 /* BIDNameAndColorCell.m */,
+				D39BC34D14EA046B00E3D67F /* BIDNameAndColorCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				FED9591F14E9BB6500DD1631 /* InfoPlist.strings in Resources */,
 				FED9592B14E9BB6500DD1631 /* BIDViewController.xib in Resources */,
+				D39BC34E14EA046B00E3D67F /* BIDNameAndColorCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				FED9593014E9BB6500DD1631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

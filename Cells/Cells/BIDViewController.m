@@ -85,12 +85,15 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellTableIdentifier = @"CellTableIdentifier";
+    static bool nibIsRegistered = NO;
+    if(!nibIsRegistered)
+    {
+        UINib *nib = [UINib nibWithNibName:@"BIDNameAndColorCell" bundle:nil];
+        [tableView registerNib:nib forCellReuseIdentifier:CellTableIdentifier];
+        nibIsRegistered = YES;
+    }
     
     BIDNameAndColorCell *cell = [tableView dequeueReusableCellWithIdentifier:CellTableIdentifier];
-    if(cell == nil)
-    {
-        cell = [[BIDNameAndColorCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellTableIdentifier];
-    }
     
     NSUInteger row = [indexPath row];
     NSDictionary *rowData = [computers objectAtIndex:row];
@@ -101,6 +104,9 @@
     return cell;
 }
 
-
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 65.0;
+}
 
 @end
