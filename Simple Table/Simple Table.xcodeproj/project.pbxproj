@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33E8CAF14E8AE2C000B8FD5 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E8CAE14E8AE2C000B8FD5 /* star.png */; };
+		D33E8CB214E8AF16000B8FD5 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E8CB114E8AF16000B8FD5 /* star2.png */; };
 		D3DF98F114BFC9E100B9E0F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DF98F014BFC9E100B9E0F0 /* UIKit.framework */; };
 		D3DF98F314BFC9E100B9E0F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DF98F214BFC9E100B9E0F0 /* Foundation.framework */; };
 		D3DF98F514BFC9E100B9E0F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DF98F414BFC9E100B9E0F0 /* CoreGraphics.framework */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33E8CAE14E8AE2C000B8FD5 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		D33E8CB114E8AF16000B8FD5 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
 		D3DF98EC14BFC9E100B9E0F0 /* Simple Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DF98F014BFC9E100B9E0F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3DF98F214BFC9E100B9E0F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,6 +86,8 @@
 				D3DF990214BFC9E100B9E0F0 /* BIDViewController.h */,
 				D3DF990314BFC9E200B9E0F0 /* BIDViewController.m */,
 				D3DF990514BFC9E200B9E0F0 /* BIDViewController.xib */,
+				D33E8CAE14E8AE2C000B8FD5 /* star.png */,
+				D33E8CB114E8AF16000B8FD5 /* star2.png */,
 				D3DF98F714BFC9E100B9E0F0 /* Supporting Files */,
 			);
 			path = "Simple Table";
@@ -150,6 +156,8 @@
 			files = (
 				D3DF98FB14BFC9E100B9E0F0 /* InfoPlist.strings in Resources */,
 				D3DF990714BFC9E200B9E0F0 /* BIDViewController.xib in Resources */,
+				D33E8CAF14E8AE2C000B8FD5 /* star.png in Resources */,
+				D33E8CB214E8AF16000B8FD5 /* star2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +282,7 @@
 				D3DF990C14BFC9E200B9E0F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
