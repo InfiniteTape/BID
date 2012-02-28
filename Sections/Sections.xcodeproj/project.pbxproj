@@ -15,6 +15,7 @@
 		D39BC37014EA099E00E3D67F /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39BC36F14EA099E00E3D67F /* BIDAppDelegate.m */; };
 		D39BC37314EA099E00E3D67F /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39BC37214EA099E00E3D67F /* BIDViewController.m */; };
 		D39BC37614EA099E00E3D67F /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39BC37414EA099E00E3D67F /* BIDViewController.xib */; };
+		D3FF3E9A14FC747200A555CC /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3FF3E9914FC747200A555CC /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D39BC37114EA099E00E3D67F /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		D39BC37214EA099E00E3D67F /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		D39BC37514EA099E00E3D67F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		D3FF3E9914FC747200A555CC /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				D39BC37114EA099E00E3D67F /* BIDViewController.h */,
 				D39BC37214EA099E00E3D67F /* BIDViewController.m */,
 				D39BC37414EA099E00E3D67F /* BIDViewController.xib */,
+				D3FF3E9914FC747200A555CC /* sortednames.plist */,
 				D39BC36614EA099E00E3D67F /* Supporting Files */,
 			);
 			path = Sections;
@@ -150,6 +153,7 @@
 			files = (
 				D39BC36A14EA099E00E3D67F /* InfoPlist.strings in Resources */,
 				D39BC37614EA099E00E3D67F /* BIDViewController.xib in Resources */,
+				D3FF3E9A14FC747200A555CC /* sortednames.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +278,7 @@
 				D39BC37B14EA099E00E3D67F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
