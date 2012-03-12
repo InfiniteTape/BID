@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33DF6A9150D77ED00885193 /* NSDictionary+MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = D33DF6A8150D77ED00885193 /* NSDictionary+MutableDeepCopy.m */; };
 		D39BC36014EA099E00E3D67F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39BC35F14EA099E00E3D67F /* UIKit.framework */; };
 		D39BC36214EA099E00E3D67F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39BC36114EA099E00E3D67F /* Foundation.framework */; };
 		D39BC36414EA099E00E3D67F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39BC36314EA099E00E3D67F /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33DF6A7150D77ED00885193 /* NSDictionary+MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MutableDeepCopy.h"; sourceTree = "<group>"; };
+		D33DF6A8150D77ED00885193 /* NSDictionary+MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MutableDeepCopy.m"; sourceTree = "<group>"; };
 		D39BC35B14EA099D00E3D67F /* Sections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39BC35F14EA099E00E3D67F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D39BC36114EA099E00E3D67F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,8 @@
 				D39BC37414EA099E00E3D67F /* BIDViewController.xib */,
 				D3FF3E9914FC747200A555CC /* sortednames.plist */,
 				D39BC36614EA099E00E3D67F /* Supporting Files */,
+				D33DF6A7150D77ED00885193 /* NSDictionary+MutableDeepCopy.h */,
+				D33DF6A8150D77ED00885193 /* NSDictionary+MutableDeepCopy.m */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -127,7 +132,7 @@
 		D39BC35214EA099D00E3D67F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = D39BC35514EA099D00E3D67F /* Build configuration list for PBXProject "Sections" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -167,6 +172,7 @@
 				D39BC36C14EA099E00E3D67F /* main.m in Sources */,
 				D39BC37014EA099E00E3D67F /* BIDAppDelegate.m in Sources */,
 				D39BC37314EA099E00E3D67F /* BIDViewController.m in Sources */,
+				D33DF6A9150D77ED00885193 /* NSDictionary+MutableDeepCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface BIDViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
-@property (strong, nonatomic) NSDictionary *names;
-@property (strong, nonatomic) NSArray *keys;
+@property (strong, nonatomic) IBOutlet UITableView *table;
+@property (strong, nonatomic) IBOutlet UISearchBar *search;
+@property (strong, nonatomic) NSDictionary *allNames;
+@property (strong, nonatomic) NSMutableDictionary *names;
+@property (strong, nonatomic) NSMutableArray *keys;
+@property (assign, nonatomic) BOOL isSearching;
+
+-(void)resetSearch;
+-(void)handleSearchForTerm:(NSString *)searchTerm;
 
 @end
