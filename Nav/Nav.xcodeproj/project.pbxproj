@@ -15,6 +15,14 @@
 		D3A34D6D150D947D00B549B7 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A34D6C150D947D00B549B7 /* BIDAppDelegate.m */; };
 		D3A34D75150D951F00B549B7 /* BIDFirstLevelControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A34D74150D951F00B549B7 /* BIDFirstLevelControllerViewController.m */; };
 		D3A34D78150D9A3100B549B7 /* BIDSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A34D77150D9A3100B549B7 /* BIDSecondLevelViewController.m */; };
+		FEB8C11B150E94C00041FDA6 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C113150E94C00041FDA6 /* button_down.png */; };
+		FEB8C11C150E94C00041FDA6 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C114150E94C00041FDA6 /* button_up.png */; };
+		FEB8C11D150E94C00041FDA6 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C115150E94C00041FDA6 /* checkmarkControllerIcon.png */; };
+		FEB8C11E150E94C00041FDA6 /* deleteMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C116150E94C00041FDA6 /* deleteMeIcon.png */; };
+		FEB8C11F150E94C00041FDA6 /* detailEditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C117150E94C00041FDA6 /* detailEditIcon.png */; };
+		FEB8C120150E94C00041FDA6 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C118150E94C00041FDA6 /* disclosureButtonControllerIcon.png */; };
+		FEB8C121150E94C00041FDA6 /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C119150E94C00041FDA6 /* moveMeIcon.png */; };
+		FEB8C122150E94C00041FDA6 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C11A150E94C00041FDA6 /* rowControlsIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,14 @@
 		D3A34D74150D951F00B549B7 /* BIDFirstLevelControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDFirstLevelControllerViewController.m; path = ../BIDFirstLevelControllerViewController.m; sourceTree = "<group>"; };
 		D3A34D76150D9A3100B549B7 /* BIDSecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSecondLevelViewController.h; sourceTree = "<group>"; };
 		D3A34D77150D9A3100B549B7 /* BIDSecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSecondLevelViewController.m; sourceTree = "<group>"; };
+		FEB8C113150E94C00041FDA6 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		FEB8C114150E94C00041FDA6 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
+		FEB8C115150E94C00041FDA6 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
+		FEB8C116150E94C00041FDA6 /* deleteMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteMeIcon.png; sourceTree = "<group>"; };
+		FEB8C117150E94C00041FDA6 /* detailEditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailEditIcon.png; sourceTree = "<group>"; };
+		FEB8C118150E94C00041FDA6 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
+		FEB8C119150E94C00041FDA6 /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
+		FEB8C11A150E94C00041FDA6 /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,7 @@
 		D3A34D62150D947D00B549B7 /* Nav */ = {
 			isa = PBXGroup;
 			children = (
+				FEB8C112150E94C00041FDA6 /* Images */,
 				D3A34D73150D951F00B549B7 /* BIDFirstLevelControllerViewController.h */,
 				D3A34D74150D951F00B549B7 /* BIDFirstLevelControllerViewController.m */,
 				D3A34D6B150D947D00B549B7 /* BIDAppDelegate.h */,
@@ -98,6 +115,21 @@
 				D3A34D6A150D947D00B549B7 /* Nav-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEB8C112150E94C00041FDA6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FEB8C113150E94C00041FDA6 /* button_down.png */,
+				FEB8C114150E94C00041FDA6 /* button_up.png */,
+				FEB8C115150E94C00041FDA6 /* checkmarkControllerIcon.png */,
+				FEB8C116150E94C00041FDA6 /* deleteMeIcon.png */,
+				FEB8C117150E94C00041FDA6 /* detailEditIcon.png */,
+				FEB8C118150E94C00041FDA6 /* disclosureButtonControllerIcon.png */,
+				FEB8C119150E94C00041FDA6 /* moveMeIcon.png */,
+				FEB8C11A150E94C00041FDA6 /* rowControlsIcon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A34D67150D947D00B549B7 /* InfoPlist.strings in Resources */,
+				FEB8C11B150E94C00041FDA6 /* button_down.png in Resources */,
+				FEB8C11C150E94C00041FDA6 /* button_up.png in Resources */,
+				FEB8C11D150E94C00041FDA6 /* checkmarkControllerIcon.png in Resources */,
+				FEB8C11E150E94C00041FDA6 /* deleteMeIcon.png in Resources */,
+				FEB8C11F150E94C00041FDA6 /* detailEditIcon.png in Resources */,
+				FEB8C120150E94C00041FDA6 /* disclosureButtonControllerIcon.png in Resources */,
+				FEB8C121150E94C00041FDA6 /* moveMeIcon.png in Resources */,
+				FEB8C122150E94C00041FDA6 /* rowControlsIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +274,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nav/Nav-Prefix.pch";
 				INFOPLIST_FILE = "Nav/Nav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -245,6 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nav/Nav-Prefix.pch";
 				INFOPLIST_FILE = "Nav/Nav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -269,6 +311,7 @@
 				D3A34D72150D947D00B549B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
