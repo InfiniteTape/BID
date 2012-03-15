@@ -110,8 +110,8 @@
         NSString *selectedState = [self.states objectAtIndex:row];
         NSArray *array = [stateZips objectForKey:selectedState];
         self.zips = array;
-        [picker reloadComponent:kZipComponent];
         [picker selectRow:0 inComponent:kZipComponent animated:YES];
+        [picker reloadComponent:kZipComponent];
         
     }
 }

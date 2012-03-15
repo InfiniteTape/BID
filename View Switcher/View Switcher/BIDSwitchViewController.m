@@ -65,7 +65,8 @@
 }
 
 - (IBAction)switchViews:(id)sender {
-    [UIView beginAnimations:@"View Flip" context:nil]; [UIView setAnimationDuration:1.25];
+    [UIView beginAnimations:@"View Flip" context:nil]; 
+    [UIView setAnimationDuration:1.25];
     [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
     if (self.yellowViewController.view.superview == nil) { 
         if (self.yellowViewController == nil) {

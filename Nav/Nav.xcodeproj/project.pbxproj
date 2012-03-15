@@ -15,6 +15,10 @@
 		D3A34D6D150D947D00B549B7 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A34D6C150D947D00B549B7 /* BIDAppDelegate.m */; };
 		D3A34D75150D951F00B549B7 /* BIDFirstLevelControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A34D74150D951F00B549B7 /* BIDFirstLevelControllerViewController.m */; };
 		D3A34D78150D9A3100B549B7 /* BIDSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A34D77150D9A3100B549B7 /* BIDSecondLevelViewController.m */; };
+		FE62576C1512650E00FAF267 /* BIDDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE62576B1512650E00FAF267 /* BIDDisclosureButtonController.m */; };
+		FE6257701512653F00FAF267 /* BIDDisclosureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE62576F1512653F00FAF267 /* BIDDisclosureDetailViewController.m */; };
+		FE6257721512663C00FAF267 /* BIDDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE6257711512663C00FAF267 /* BIDDisclosureDetail.xib */; };
+		FE625775151272D800FAF267 /* BIDCheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE625774151272D800FAF267 /* BIDCheckListController.m */; };
 		FEB8C11B150E94C00041FDA6 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C113150E94C00041FDA6 /* button_down.png */; };
 		FEB8C11C150E94C00041FDA6 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C114150E94C00041FDA6 /* button_up.png */; };
 		FEB8C11D150E94C00041FDA6 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB8C115150E94C00041FDA6 /* checkmarkControllerIcon.png */; };
@@ -40,6 +44,13 @@
 		D3A34D74150D951F00B549B7 /* BIDFirstLevelControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDFirstLevelControllerViewController.m; path = ../BIDFirstLevelControllerViewController.m; sourceTree = "<group>"; };
 		D3A34D76150D9A3100B549B7 /* BIDSecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSecondLevelViewController.h; sourceTree = "<group>"; };
 		D3A34D77150D9A3100B549B7 /* BIDSecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSecondLevelViewController.m; sourceTree = "<group>"; };
+		FE62576A1512650E00FAF267 /* BIDDisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureButtonController.h; sourceTree = "<group>"; };
+		FE62576B1512650E00FAF267 /* BIDDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButtonController.m; sourceTree = "<group>"; };
+		FE62576E1512653F00FAF267 /* BIDDisclosureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureDetailViewController.h; sourceTree = "<group>"; };
+		FE62576F1512653F00FAF267 /* BIDDisclosureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailViewController.m; sourceTree = "<group>"; };
+		FE6257711512663C00FAF267 /* BIDDisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDisclosureDetail.xib; sourceTree = "<group>"; };
+		FE625773151272D800FAF267 /* BIDCheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckListController.h; sourceTree = "<group>"; };
+		FE625774151272D800FAF267 /* BIDCheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckListController.m; sourceTree = "<group>"; };
 		FEB8C113150E94C00041FDA6 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
 		FEB8C114150E94C00041FDA6 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
 		FEB8C115150E94C00041FDA6 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
@@ -102,6 +113,13 @@
 				D3A34D63150D947D00B549B7 /* Supporting Files */,
 				D3A34D76150D9A3100B549B7 /* BIDSecondLevelViewController.h */,
 				D3A34D77150D9A3100B549B7 /* BIDSecondLevelViewController.m */,
+				FE62576A1512650E00FAF267 /* BIDDisclosureButtonController.h */,
+				FE62576B1512650E00FAF267 /* BIDDisclosureButtonController.m */,
+				FE62576E1512653F00FAF267 /* BIDDisclosureDetailViewController.h */,
+				FE62576F1512653F00FAF267 /* BIDDisclosureDetailViewController.m */,
+				FE6257711512663C00FAF267 /* BIDDisclosureDetail.xib */,
+				FE625773151272D800FAF267 /* BIDCheckListController.h */,
+				FE625774151272D800FAF267 /* BIDCheckListController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -192,6 +210,7 @@
 				FEB8C120150E94C00041FDA6 /* disclosureButtonControllerIcon.png in Resources */,
 				FEB8C121150E94C00041FDA6 /* moveMeIcon.png in Resources */,
 				FEB8C122150E94C00041FDA6 /* rowControlsIcon.png in Resources */,
+				FE6257721512663C00FAF267 /* BIDDisclosureDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +225,9 @@
 				D3A34D6D150D947D00B549B7 /* BIDAppDelegate.m in Sources */,
 				D3A34D75150D951F00B549B7 /* BIDFirstLevelControllerViewController.m in Sources */,
 				D3A34D78150D9A3100B549B7 /* BIDSecondLevelViewController.m in Sources */,
+				FE62576C1512650E00FAF267 /* BIDDisclosureButtonController.m in Sources */,
+				FE6257701512653F00FAF267 /* BIDDisclosureDetailViewController.m in Sources */,
+				FE625775151272D800FAF267 /* BIDCheckListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
