@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D37B7CB615154FB000983AB1 /* BIDRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37B7CB515154FB000983AB1 /* BIDRowControlsController.m */; };
+		D37B7CBA151554E600983AB1 /* BIDMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37B7CB9151554E600983AB1 /* BIDMoveMeController.m */; };
 		D3A34D5D150D947D00B549B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A34D5C150D947D00B549B7 /* UIKit.framework */; };
 		D3A34D5F150D947D00B549B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A34D5E150D947D00B549B7 /* Foundation.framework */; };
 		D3A34D61150D947D00B549B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A34D60150D947D00B549B7 /* CoreGraphics.framework */; };
@@ -30,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D37B7CB415154FB000983AB1 /* BIDRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRowControlsController.h; sourceTree = "<group>"; };
+		D37B7CB515154FB000983AB1 /* BIDRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsController.m; sourceTree = "<group>"; };
+		D37B7CB8151554E600983AB1 /* BIDMoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDMoveMeController.h; sourceTree = "<group>"; };
+		D37B7CB9151554E600983AB1 /* BIDMoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDMoveMeController.m; sourceTree = "<group>"; };
 		D3A34D58150D947D00B549B7 /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A34D5C150D947D00B549B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3A34D5E150D947D00B549B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +126,10 @@
 				FE6257711512663C00FAF267 /* BIDDisclosureDetail.xib */,
 				FE625773151272D800FAF267 /* BIDCheckListController.h */,
 				FE625774151272D800FAF267 /* BIDCheckListController.m */,
+				D37B7CB415154FB000983AB1 /* BIDRowControlsController.h */,
+				D37B7CB515154FB000983AB1 /* BIDRowControlsController.m */,
+				D37B7CB8151554E600983AB1 /* BIDMoveMeController.h */,
+				D37B7CB9151554E600983AB1 /* BIDMoveMeController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -228,6 +238,8 @@
 				FE62576C1512650E00FAF267 /* BIDDisclosureButtonController.m in Sources */,
 				FE6257701512653F00FAF267 /* BIDDisclosureDetailViewController.m in Sources */,
 				FE625775151272D800FAF267 /* BIDCheckListController.m in Sources */,
+				D37B7CB615154FB000983AB1 /* BIDRowControlsController.m in Sources */,
+				D37B7CBA151554E600983AB1 /* BIDMoveMeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
