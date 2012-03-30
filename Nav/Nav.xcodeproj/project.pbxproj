@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33202451525EC30004F6E45 /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = D33202441525EC30004F6E45 /* Presidents.plist */; };
 		D37B7CB615154FB000983AB1 /* BIDRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37B7CB515154FB000983AB1 /* BIDRowControlsController.m */; };
 		D37B7CBA151554E600983AB1 /* BIDMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37B7CB9151554E600983AB1 /* BIDMoveMeController.m */; };
 		D3A34D5D150D947D00B549B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A34D5C150D947D00B549B7 /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33202441525EC30004F6E45 /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
 		D37B7CB415154FB000983AB1 /* BIDRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRowControlsController.h; sourceTree = "<group>"; };
 		D37B7CB515154FB000983AB1 /* BIDRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsController.m; sourceTree = "<group>"; };
 		D37B7CB8151554E600983AB1 /* BIDMoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDMoveMeController.h; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				D3A34D64150D947D00B549B7 /* Nav-Info.plist */,
 				FEDD3BA41524F58E00CD9516 /* computers.plist */,
+				D33202441525EC30004F6E45 /* Presidents.plist */,
 				D3A34D65150D947D00B549B7 /* InfoPlist.strings */,
 				D3A34D68150D947D00B549B7 /* main.m */,
 				D3A34D6A150D947D00B549B7 /* Nav-Prefix.pch */,
@@ -245,6 +248,7 @@
 				FEB8C122150E94C00041FDA6 /* rowControlsIcon.png in Resources */,
 				FE6257721512663C00FAF267 /* BIDDisclosureDetail.xib in Resources */,
 				FEDD3BA51524F58E00CD9516 /* computers.plist in Resources */,
+				D33202451525EC30004F6E45 /* Presidents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
