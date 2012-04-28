@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE419EF2152A2C0900BE779D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE419EF1152A2C0900BE779D /* UIKit.framework */; };
+		FE419EF4152A2C0900BE779D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE419EF3152A2C0900BE779D /* Foundation.framework */; };
+		FE419EF6152A2C0900BE779D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE419EF5152A2C0900BE779D /* CoreGraphics.framework */; };
+		FE419EFC152A2C0900BE779D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE419EFA152A2C0900BE779D /* InfoPlist.strings */; };
+		FE419EFE152A2C0900BE779D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE419EFD152A2C0900BE779D /* main.m */; };
+		FE419F02152A2C0900BE779D /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE419F01152A2C0900BE779D /* BIDAppDelegate.m */; };
+		FE419F05152A2C0900BE779D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE419F03152A2C0900BE779D /* MainStoryboard.storyboard */; };
+		FE419F08152A2C0900BE779D /* BIDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE419F07152A2C0900BE779D /* BIDMasterViewController.m */; };
+		FE419F0B152A2C0900BE779D /* BIDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE419F0A152A2C0900BE779D /* BIDDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE419EED152A2C0900BE779D /* Presidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presidents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE419EF1152A2C0900BE779D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE419EF3152A2C0900BE779D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE419EF5152A2C0900BE779D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE419EF9152A2C0900BE779D /* Presidents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Presidents-Info.plist"; sourceTree = "<group>"; };
+		FE419EFB152A2C0900BE779D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE419EFD152A2C0900BE779D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE419EFF152A2C0900BE779D /* Presidents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Presidents-Prefix.pch"; sourceTree = "<group>"; };
+		FE419F00152A2C0900BE779D /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		FE419F01152A2C0900BE779D /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		FE419F04152A2C0900BE779D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FE419F06152A2C0900BE779D /* BIDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDMasterViewController.h; sourceTree = "<group>"; };
+		FE419F07152A2C0900BE779D /* BIDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDMasterViewController.m; sourceTree = "<group>"; };
+		FE419F09152A2C0900BE779D /* BIDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDetailViewController.h; sourceTree = "<group>"; };
+		FE419F0A152A2C0900BE779D /* BIDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE419EEA152A2C0800BE779D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE419EF2152A2C0900BE779D /* UIKit.framework in Frameworks */,
+				FE419EF4152A2C0900BE779D /* Foundation.framework in Frameworks */,
+				FE419EF6152A2C0900BE779D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE419EE2152A2C0700BE779D = {
+			isa = PBXGroup;
+			children = (
+				FE419EF7152A2C0900BE779D /* Presidents */,
+				FE419EF0152A2C0900BE779D /* Frameworks */,
+				FE419EEE152A2C0900BE779D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE419EEE152A2C0900BE779D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE419EED152A2C0900BE779D /* Presidents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE419EF0152A2C0900BE779D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE419EF1152A2C0900BE779D /* UIKit.framework */,
+				FE419EF3152A2C0900BE779D /* Foundation.framework */,
+				FE419EF5152A2C0900BE779D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE419EF7152A2C0900BE779D /* Presidents */ = {
+			isa = PBXGroup;
+			children = (
+				FE419F00152A2C0900BE779D /* BIDAppDelegate.h */,
+				FE419F01152A2C0900BE779D /* BIDAppDelegate.m */,
+				FE419F03152A2C0900BE779D /* MainStoryboard.storyboard */,
+				FE419F06152A2C0900BE779D /* BIDMasterViewController.h */,
+				FE419F07152A2C0900BE779D /* BIDMasterViewController.m */,
+				FE419F09152A2C0900BE779D /* BIDDetailViewController.h */,
+				FE419F0A152A2C0900BE779D /* BIDDetailViewController.m */,
+				FE419EF8152A2C0900BE779D /* Supporting Files */,
+			);
+			path = Presidents;
+			sourceTree = "<group>";
+		};
+		FE419EF8152A2C0900BE779D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE419EF9152A2C0900BE779D /* Presidents-Info.plist */,
+				FE419EFA152A2C0900BE779D /* InfoPlist.strings */,
+				FE419EFD152A2C0900BE779D /* main.m */,
+				FE419EFF152A2C0900BE779D /* Presidents-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE419EEC152A2C0800BE779D /* Presidents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE419F0E152A2C0900BE779D /* Build configuration list for PBXNativeTarget "Presidents" */;
+			buildPhases = (
+				FE419EE9152A2C0800BE779D /* Sources */,
+				FE419EEA152A2C0800BE779D /* Frameworks */,
+				FE419EEB152A2C0800BE779D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Presidents;
+			productName = Presidents;
+			productReference = FE419EED152A2C0900BE779D /* Presidents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE419EE4152A2C0700BE779D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FE419EE7152A2C0700BE779D /* Build configuration list for PBXProject "Presidents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE419EE2152A2C0700BE779D;
+			productRefGroup = FE419EEE152A2C0900BE779D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE419EEC152A2C0800BE779D /* Presidents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE419EEB152A2C0800BE779D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE419EFC152A2C0900BE779D /* InfoPlist.strings in Resources */,
+				FE419F05152A2C0900BE779D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE419EE9152A2C0800BE779D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE419EFE152A2C0900BE779D /* main.m in Sources */,
+				FE419F02152A2C0900BE779D /* BIDAppDelegate.m in Sources */,
+				FE419F08152A2C0900BE779D /* BIDMasterViewController.m in Sources */,
+				FE419F0B152A2C0900BE779D /* BIDDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE419EFA152A2C0900BE779D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE419EFB152A2C0900BE779D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE419F03152A2C0900BE779D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE419F04152A2C0900BE779D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE419F0C152A2C0900BE779D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FE419F0D152A2C0900BE779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE419F0F152A2C0900BE779D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presidents/Presidents-Prefix.pch";
+				INFOPLIST_FILE = "Presidents/Presidents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE419F10152A2C0900BE779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presidents/Presidents-Prefix.pch";
+				INFOPLIST_FILE = "Presidents/Presidents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE419EE7152A2C0700BE779D /* Build configuration list for PBXProject "Presidents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE419F0C152A2C0900BE779D /* Debug */,
+				FE419F0D152A2C0900BE779D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE419F0E152A2C0900BE779D /* Build configuration list for PBXNativeTarget "Presidents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE419F0F152A2C0900BE779D /* Debug */,
+				FE419F10152A2C0900BE779D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE419EE4152A2C0700BE779D /* Project object */;
+}
