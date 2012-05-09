@@ -13,6 +13,7 @@
 @implementation BIDMasterViewController
 
 @synthesize detailViewController = _detailViewController;
+@synthesize presidents;
 
 - (void)awakeFromNib
 {
@@ -33,8 +34,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"PresidentList" ofType:@"plist"];
+    NSDictionary *presidentInfo = [NSDictionary dictionaryWithContentsOfFile:path];
+    self.presidents = [presidentInfo objectForKey:@"presidents"];
+    
     self.detailViewController = (BIDDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionMiddle];
+    
+
 }
 
 - (void)viewDidUnload
@@ -42,6 +50,7 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    self.presidents = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -107,5 +116,36 @@
     return YES;
 }
 */
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [self.presidents count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *Identifier = @"Master List Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:Identifier];
+    if(!cell)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:Identifier];
+    }
+    
+    NSDictionary *president = [self.presidents objectAtIndex:indexPath.row];
+    cell.textLabel.text = [president objectForKey:@"name"];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+    NSDictionary *president = [self.presidents objectAtIndex:indexPath.row];
+    NSString *urlString = [president objectForKey:@"url"];
+    self.detailViewController.detailItem = urlString;
+}
 
 @end

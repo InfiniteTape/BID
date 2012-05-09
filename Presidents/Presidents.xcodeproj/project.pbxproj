@@ -16,6 +16,8 @@
 		FE419F05152A2C0900BE779D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE419F03152A2C0900BE779D /* MainStoryboard.storyboard */; };
 		FE419F08152A2C0900BE779D /* BIDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE419F07152A2C0900BE779D /* BIDMasterViewController.m */; };
 		FE419F0B152A2C0900BE779D /* BIDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE419F0A152A2C0900BE779D /* BIDDetailViewController.m */; };
+		FECACD4E155AEEB400E1DA8C /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FECACD4D155AEEB400E1DA8C /* PresidentList.plist */; };
+		FECACD52155AF42700E1DA8C /* BIDLanguageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECACD51155AF42700E1DA8C /* BIDLanguageListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,9 @@
 		FE419F07152A2C0900BE779D /* BIDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDMasterViewController.m; sourceTree = "<group>"; };
 		FE419F09152A2C0900BE779D /* BIDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDetailViewController.h; sourceTree = "<group>"; };
 		FE419F0A152A2C0900BE779D /* BIDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDetailViewController.m; sourceTree = "<group>"; };
+		FECACD4D155AEEB400E1DA8C /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
+		FECACD50155AF42700E1DA8C /* BIDLanguageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDLanguageListController.h; sourceTree = "<group>"; };
+		FECACD51155AF42700E1DA8C /* BIDLanguageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDLanguageListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +85,12 @@
 		FE419EF7152A2C0900BE779D /* Presidents */ = {
 			isa = PBXGroup;
 			children = (
+				FECACD4D155AEEB400E1DA8C /* PresidentList.plist */,
 				FE419F00152A2C0900BE779D /* BIDAppDelegate.h */,
 				FE419F01152A2C0900BE779D /* BIDAppDelegate.m */,
 				FE419F03152A2C0900BE779D /* MainStoryboard.storyboard */,
+				FECACD50155AF42700E1DA8C /* BIDLanguageListController.h */,
+				FECACD51155AF42700E1DA8C /* BIDLanguageListController.m */,
 				FE419F06152A2C0900BE779D /* BIDMasterViewController.h */,
 				FE419F07152A2C0900BE779D /* BIDMasterViewController.m */,
 				FE419F09152A2C0900BE779D /* BIDDetailViewController.h */,
@@ -155,6 +163,7 @@
 			files = (
 				FE419EFC152A2C0900BE779D /* InfoPlist.strings in Resources */,
 				FE419F05152A2C0900BE779D /* MainStoryboard.storyboard in Resources */,
+				FECACD4E155AEEB400E1DA8C /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +178,7 @@
 				FE419F02152A2C0900BE779D /* BIDAppDelegate.m in Sources */,
 				FE419F08152A2C0900BE779D /* BIDMasterViewController.m in Sources */,
 				FE419F0B152A2C0900BE779D /* BIDDetailViewController.m in Sources */,
+				FECACD52155AF42700E1DA8C /* BIDLanguageListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +292,7 @@
 				FE419F10152A2C0900BE779D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

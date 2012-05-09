@@ -13,5 +13,5 @@
 @interface BIDMasterViewController : UITableViewController
 
 @property (strong, nonatomic) BIDDetailViewController *detailViewController;
-
+@property (strong, nonatomic) NSArray *presidents;
 @end
