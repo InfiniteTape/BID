@@ -17,6 +17,9 @@
 		FE469E3C155C54E5009CA01A /* BIDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE469E3B155C54E5009CA01A /* BIDMainViewController.m */; };
 		FE469E3F155C54E5009CA01A /* BIDFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE469E3E155C54E5009CA01A /* BIDFlipsideViewController.m */; };
 		FE469E46155C5528009CA01A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE469E45155C5528009CA01A /* Settings.bundle */; };
+		FEF8D910155D656C005CABE1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEF8D90F155D656C005CABE1 /* icon.png */; };
+		FEF8D914155D8FE8005CABE1 /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = FEF8D912155D8FE8005CABE1 /* rabbit.png */; };
+		FEF8D915155D8FE8005CABE1 /* turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = FEF8D913155D8FE8005CABE1 /* turtle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		FE469E3D155C54E5009CA01A /* BIDFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDFlipsideViewController.h; sourceTree = "<group>"; };
 		FE469E3E155C54E5009CA01A /* BIDFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDFlipsideViewController.m; sourceTree = "<group>"; };
 		FE469E45155C5528009CA01A /* Settings.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Settings.bundle; sourceTree = "<group>"; };
+		FEF8D90F155D656C005CABE1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FEF8D912155D8FE8005CABE1 /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
+		FEF8D913155D8FE8005CABE1 /* turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 		FE469E2B155C54E5009CA01A /* AppSettings */ = {
 			isa = PBXGroup;
 			children = (
+				FEF8D912155D8FE8005CABE1 /* rabbit.png */,
+				FEF8D913155D8FE8005CABE1 /* turtle.png */,
+				FEF8D90F155D656C005CABE1 /* icon.png */,
 				FE469E34155C54E5009CA01A /* BIDAppDelegate.h */,
 				FE469E35155C54E5009CA01A /* BIDAppDelegate.m */,
 				FE469E37155C54E5009CA01A /* MainStoryboard.storyboard */,
@@ -159,6 +168,9 @@
 				FE469E30155C54E5009CA01A /* InfoPlist.strings in Resources */,
 				FE469E39155C54E5009CA01A /* MainStoryboard.storyboard in Resources */,
 				FE469E46155C5528009CA01A /* Settings.bundle in Resources */,
+				FEF8D910155D656C005CABE1 /* icon.png in Resources */,
+				FEF8D914155D8FE8005CABE1 /* rabbit.png in Resources */,
+				FEF8D915155D8FE8005CABE1 /* turtle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				FE469E44155C54E5009CA01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,53 +6,109 @@
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Group</string>
+			<string>General Info</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
 		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Username</string>
+			<key>Key</key>
+			<string>username</string>
 			<key>AutocapitalizationType</key>
 			<string>None</string>
 			<key>AutocorrectionType</key>
 			<string>No</string>
-			<key>DefaultValue</key>
-			<string></string>
-			<key>IsSecure</key>
-			<false/>
-			<key>Key</key>
-			<string>name_preference</string>
-			<key>KeyboardType</key>
-			<string>Alphabet</string>
-			<key>Title</key>
-			<string>Name</string>
+		</dict>
+		<dict>
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Password</string>
+			<key>Key</key>
+			<string>password</string>
+			<key>IsSecure</key>
+			<true/>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
 		</dict>
 		<dict>
-			<key>DefaultValue</key>
-			<true/>
-			<key>Key</key>
-			<string>enabled_preference</string>
+			<key>Values</key>
+			<array>
+				<string>HTTP</string>
+				<string>SMTP</string>
+				<string>NNTP</string>
+				<string>IMAP</string>
+				<string>POP3</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
 			<key>Title</key>
-			<string>Enabled</string>
+			<string>Protocol</string>
+			<key>Key</key>
+			<string>protocol</string>
+			<key>DefaultValue</key>
+			<string>SMTP</string>
+			<key>Titles</key>
+			<array>
+				<string>HTTP</string>
+				<string>SMTP</string>
+				<string>NNTP</string>
+				<string>IMAP</string>
+				<string>POP3</string>
+			</array>
+		</dict>
+		<dict>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Warp Drive</string>
+			<key>Key</key>
+			<string>warp</string>
+			<key>DefaultValue</key>
+			<true/>
 		</dict>
 		<dict>
-			<key>DefaultValue</key>
-			<real>0.5</real>
-			<key>Key</key>
-			<string>slider_preference</string>
-			<key>MaximumValue</key>
-			<integer>1</integer>
-			<key>MaximumValueImage</key>
-			<string></string>
-			<key>MinimumValue</key>
-			<integer>0</integer>
-			<key>MinimumValueImage</key>
-			<string></string>
+			<key>Title</key>
+			<string>Warp Factor</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
 			<key>Type</key>
 			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>warpFactor</string>
+			<key>DefaultValue</key>
+			<integer>5</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>MaximumValue</key>
+			<integer>10</integer>
+			<key>MinimumValueImage</key>
+			<string>turtle.png</string>
+			<key>MaximumValueImage</key>
+			<string>rabbit.png</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Additional Info</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>More</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>More Settings</string>
+			<key>Key</key>
+			<string></string>
 		</dict>
 	</array>
 	<key>StringsTable</key>
