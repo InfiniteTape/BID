@@ -7,6 +7,7 @@
 //
 
 #import "BIDAppDelegate.h"
+#import "BIDMainViewController.h"
 
 @implementation BIDAppDelegate
 
@@ -15,6 +16,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSDictionary *defaults = [NSDictionary dictionaryWithObjectsAndKeys:
+                              [NSNumber numberWithBool:YES], kWarpDriveKey,
+                              [NSNumber numberWithInt:5], kWarpFactorKey,
+                              @"Greed", kFavoriteSinKey,
+                              nil];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
+    
     return YES;
 }
 							

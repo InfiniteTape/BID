@@ -17,7 +17,12 @@
 @interface BIDFlipsideViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet id <BIDFlipsideViewControllerDelegate> delegate;
+@property (weak, nonatomic) IBOutlet UISwitch *engineSwitch;
+@property (weak, nonatomic) IBOutlet UISlider *warpFactorSlider;
 
+- (void)refreshFields;
+- (IBAction)engineSwitchTapped;
+- (IBAction)warpSliderTouched;
 - (IBAction)done:(id)sender;
 
 @end
